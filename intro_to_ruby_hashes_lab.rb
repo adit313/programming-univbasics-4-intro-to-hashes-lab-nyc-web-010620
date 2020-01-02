@@ -11,7 +11,7 @@ def pioneer
 end
 
 def id_generator
-  return {id: Random.rand(5)}
+  return {id: Random.rand(5)+1}
 end
 
 def my_hash_creator(key, value)
